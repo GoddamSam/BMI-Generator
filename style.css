@@ -1,0 +1,65 @@
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: #767171;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position:relative;
+    top:5rem;
+    width:80%;
+    color: #0f0808;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.def{
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 500;
+}
+
+label{
+    margin: 8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+input{
+    border: 2px solid #060101;
+}
+
+button{
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 10px;
+    border: 2px solid #060101;
+    
+}
+
+.result{
+    margin:8px;
+    font-size:1.7rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.category{
+    margin:8px;
+    font-size:1.7rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.guide{
+    font-size:20px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1>BMI Calculator</h1>
+    <p class="def"><strong>BMI</strong> (Body Mass Index) is a measurement of body fat based on height and weight that applies to both men and women between the ages of 18 and 65 years.</p>
+    <p class="def">BMI can be used to indicate if you are overweight, obese, underweight or normal. A healthy BMI score is between 20 and 25. A score below 20 indicates that you may be underweight; a value above 25 indicates that you may be overweight.</p>
+    <form>
+        <p><label title="weight" for="weight">Weight in grams: &nbsp; &nbsp;</label><input type="number" id="weight" placeholder="Weight"></p>
+        <p><label title="height" for="height">Height in cm: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label><input type="number" id="height" placeholder="Height"></p>
+        <button type="submit" class="Calc">Calculate</button>
+        <div class="result"></div>
+        <div class="category"></div>
+    </form>
+
+    <h3>BMI Weight Guide</h3>
+    <p class="guide">Under Weight = Less than 18.6</p>
+    <p class="guide">Normal Range = 18.6 to 24.9</p>
+    <p class="guide">Over Weight = Greater than 24.9</p>
+    </div>
+</body>
+</html>
